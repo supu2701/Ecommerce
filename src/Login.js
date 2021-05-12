@@ -33,6 +33,12 @@ signup(e){
         console.log(err);
     })
 }
+signupbtn(){
+  document.querySelector(".container").classList.add("sign-up-mode");
+}
+signinbtn(){
+  document.querySelector(".container").classList.remove("sign-up-mode");
+}
 handleChange(e){
     this.setState({
         [e.target.name] : e.target.value
@@ -116,7 +122,6 @@ render()
                 />
               </div>
               <button onClick={this.signup} className="btn">Signup</button>
-              <input type="submit" className="btn" defaultValue="Sign up" />
               <p className="social-text">Or Sign up with social platforms</p>
               <div className="social-media">
                 <a href="#" className="social-icon">
@@ -143,7 +148,7 @@ render()
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
                 ex ratione. Aliquid!
               </p>
-              <button className="btn transparent" id="sign-up-btn">
+              <button className="btn transparent" onClick={this.signupbtn} id="sign-up-btn">
                 Sign up
               </button>
             </div>
@@ -156,7 +161,7 @@ render()
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
                 laboriosam ad deleniti.
               </p>
-              <button className="btn transparent" id="sign-in-btn">
+              <button className="btn transparent" onClick={this.signinbtn} id="sign-in-btn">
                 Sign in
               </button>
             </div>
