@@ -145,8 +145,8 @@ render()
             <div className="content">
               <h3>New here ?</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-                ex ratione. Aliquid!
+                Get ready to have an awesome shopping experince with us through this E-commerce website. To get started please Sign-up below.
+            
               </p>
               <button className="btn transparent" onClick={this.signupbtn} id="sign-up-btn">
                 Sign up
@@ -156,10 +156,9 @@ render()
           </div>
           <div className="panel right-panel">
             <div className="content">
-              <h3>One of us ?</h3>
+              <h3>Already a user ?</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                laboriosam ad deleniti.
+                So, you already had a great shopping experince with us? Cool! so you don't need to register again. Just sign-in to our E-commerce site.
               </p>
               <button className="btn transparent" onClick={this.signinbtn} id="sign-in-btn">
                 Sign in
