@@ -1,5 +1,8 @@
-## ⭕⭕E-Commerce Website⭕⭕
+# ⭕⭕E-Commerce Website⭕⭕
 ## ❗ DIGITAL MART ❗
+
+## It is currently hosted and deployed on Firebase App, the link of which is:
+## https://react-firebase-auth-de143.firebaseapp.com/
 
 ### 🔴 Task for The Tesseract
 
